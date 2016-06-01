@@ -1,0 +1,13 @@
+body { margin-top: 80px }
+
+.landing { margin-top: 200px }
+.landing form { margin-top: 20px }
+.landing form input.btn-success { margin-left: 10px }
+.cat_house { margin-top: -100px }
+.sessions { margin-top: 150px }
+
+.places p a { color: #1D95CB; font: "HelveticaNeue"; font-size: 2.0em; letter-spacing: -0.6px; }
+
+ul.nav { padding: 12px }
+
+.navbar .brand { padding-bottom: 5px }

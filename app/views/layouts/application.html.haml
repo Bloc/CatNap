@@ -1,0 +1,29 @@
+!!!
+%html
+  %head
+    %title CatNap
+    = stylesheet_link_tag    "application"
+    = javascript_include_tag "application"
+    = csrf_meta_tags
+  %body
+    - flash.each do |name, msg|
+      - if name == :success
+        .alert.success= msg
+      - if name == :error
+        .alert.error= msg
+      - if name == :warning
+        .alert.warning= msg
+    .navbar.navbar-fixed-top
+      .navbar-inner
+        .container
+          %a{:href => root_url}
+            .brand= image_tag "logo.png"
+          %ul.nav.pull-left
+            %li
+              = link_to "Create a new listing!", new_place_path 
+            %li
+              = link_to "Browse listings", places_path
+          %ul.nav.pull-right
+            / add navigation links here
+    .container
+      = yield

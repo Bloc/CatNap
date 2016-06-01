@@ -1,0 +1,18 @@
+/This entire page is scaffolded for the user
+.landing.index
+  .row
+    .span6
+      %h1 Find a place to stay
+      = form_tag "/search", :method => "get", :class => "form-search" do
+        = text_field_tag "name", nil, :class => "input-medium search-query", :placeholder => "Where are you going?"
+        = submit_tag "Search »", :class => "btn-success"
+    .span6.cat_house
+      %ul.thumbnails
+        %li.span5
+          %a{:href => "/", :class => "thumbnail"}
+            = image_tag "cathouse.png"
+      %p
+        %a{:href => "/"} 2 Paws Lane
+        = "- Palo Alto, CA"
+      %p
+        5 treats / night

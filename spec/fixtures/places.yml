@@ -1,0 +1,9 @@
+bloc_haus:
+  address_1: "845 Webster St."
+  address_2: "Apt 3"
+  city: "Palo Alto"
+  state: "Ca"
+  zipcode: "94301"
+  name: "The Heating Vent at Webster"
+  description: "Come relax at this block's finest heating element"
+  price: "9"

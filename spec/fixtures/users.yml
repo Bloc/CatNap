@@ -1,0 +1,5 @@
+bob:
+  email: "bob@loblaw.com"
+  password_salt: "$2a$10$DOhFtxpOEh74haDLvF2XUe"
+  password_hash: "$2a$10$DOhFtxpOEh74haDLvF2XUeeWVVJfDellnckULS6yOFigDB4Cmhzo6"
+  # password: "super_secret"
