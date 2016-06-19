@@ -8,3 +8,4 @@ log/
 *.tmproj
 *~
 *.swp
+.ruby-version
