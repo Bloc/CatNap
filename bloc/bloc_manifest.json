@@ -1,0 +1,36 @@
+{
+    "course": {
+       "name": "CatNap: AirBnB for Cats",
+       "description": "In this course we'll learn how to get started with Ruby on Rails by creating an app that lets you create and view AirBnB-esque listings and some basic user authentication. Let's get started right meow."
+    },
+    "default_file": "config/routes.rb",
+    "deployable": true,
+    "chapters": [
+        {
+            "name": "Creating Cat Nap Places Part I",
+            "markdown": "chapters/chapter1.md",
+            "command": "rspec spec -t ch1 -f j"
+        },
+        {
+            "name": "Creating Cat Nap Places Part II",
+            "markdown": "chapters/chapter2.md",
+            "command": "rspec spec -t ch2 -f j"
+        },
+        {
+            "name": "Letting Cats Sign Up",
+            "markdown": "chapters/chapter3.md",
+            "command": "rspec spec -t ch3 -f j"
+        },
+        {
+            "name": "Signing In",
+            "markdown": "chapters/chapter4.md",
+            "command": "rspec spec -t ch4 -f j"
+        },
+        {
+            "name": "Reserving a Place",
+            "markdown": "chapters/chapter5.md",
+            "command": "rspec spec -t ch5 -f j"
+        }
+    ]
+}
+
