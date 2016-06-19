@@ -35,7 +35,6 @@ group :test do
   # Pretty printed test output
   gem 'turn', :require => false
   gem "rspec-rails"
-  gem "rspec-core", :git => "git://github.com/Bloc/rspec-core.git"
   gem "capybara"
   gem "database_cleaner"
   gem 'sqlite3'
